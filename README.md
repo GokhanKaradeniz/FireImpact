@@ -25,6 +25,9 @@ Mathnet library is used for the vector math. Nuget packages are:
 Build the solution.
 Run Main function in program.cs
 
+## Class Reference
+[Reference](https://gokhankaradeniz.github.io/annotated.html)
+
 ## Help
 
 FireImpact is a console application. All outputs will be at the console window.
