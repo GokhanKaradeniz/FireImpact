@@ -10,7 +10,7 @@ namespace FireImpact
     {
         /// <summary>
         /// This method iterates <paramref name="allUnits"/> and applies deafness and blindness if necessary.
-        /// Blindness and deafness applied 
+        /// Blindness and deafness applied together as test document wanted it so.
         /// </summary>
         /// <param name="allUnits">Array of all soldiers to iterate through.</param>
         /// <param name="weaponFired">Weapon that will cause the Blindness and Deafness</param>
@@ -67,7 +67,7 @@ namespace FireImpact
         /// <param name="soldier">Soldier who will be blinded/deafened</param>
         /// <param name="effectArea">Effect Area that soldier is in.</param>
         /// <param name="maxDuration">Maximum Duration for blindness or deafness effect.</param>
-        /// <returns></returns>
+        /// <returns>Duration in seconds.</returns>
         private static double GetDuration(Soldier soldier, EffectArea effectArea, double maxDuration)
         {
             //Calculate the distance between soldier and the muzzle.
