@@ -26,7 +26,7 @@ Build the solution.
 Run Main function in program.cs
 
 ## Class Reference
-[Reference](https://gokhankaradeniz.github.io/annotated.html)
+Class Reference can be found [here](https://gokhankaradeniz.github.io/annotated.html)
 
 ## Help
 
